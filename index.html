@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Data</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="background-color: teal">
+        <legend style="background-color: black; color: aliceblue; width: 150px">
+          Personal Data
+        </legend>
+        <fieldset style="background-color: purple; color: navy">
+          <legend
+            style="
+              background-color: black;
+              color: aliceblue;
+              padding: 40px 1px 40px 1px;
+            "
+          >
+            Your Name
+          </legend>
+          <br /><br /><br />
+          <table>
+            <tr>
+              <td>
+                <label for="first">First Name</label>
+              </td>
+              <td>:</td>
+              <td>
+                <input type="text" id="first" name="first-name" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="last">Second Name</label>
+              </td>
+              <td>:</td>
+              <td>
+                <input type="text" name="" id="last" name="second-name" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br /><br />
+        <table>
+          <tr>
+            <td>
+              <label for="phone">Your Phone</label>
+            </td>
+            <td>:</td>
+            <td><input type="number" name="phone" id="phone" /><br /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email</label>
+            </td>
+            <td>:</td>
+            <td><input type="email" name="email" id="email" /><br /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password"> Password</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="password" name="password" id="password" /><br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="re password">Re-Password</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="password" name="re password" id="re password" />
+            </td>
+          </tr>
+        </table>
+        <br /><br /><br />
+        <label for="">Gender</label><br />
+        <input type="radio" name="Gender" id="male" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" name="Gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <br /><br />
+        <label for="">Status</label><br />
+        <input type="checkbox" name="status" id="student" value="student" />
+        <label for="student">Student</label><br />
+        <input type="checkbox" name="status" id="graduated" value="graduated" />
+        <label for="graduated">Graduated</label>
+        <br /><br />
+        <label for="University"> Choose Your University </label><br />
+        <select name="University" id="University">
+          <optgroup label="Egyptian university">
+            <option value="cairo">Cairo</option>
+            <option value="ain shams">Ain Shams</option>
+            <option value="helwan">Helwan</option>
+          </optgroup>
+          <optgroup label="Foreign University">
+            <option value="USA">USA</option>
+            <option value="germany">Germany</option>
+            <option value="british">British</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <input
+          type="image"
+          alt="submit"
+          src="img/SUBMIT-BUTTON.png"
+          width="80"
+        />
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
